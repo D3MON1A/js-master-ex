@@ -1,7 +1,14 @@
 function isOldEnoughToDrinkAndDrive(age) {
   // your code here
-   return (age >= 21 ? false : false);
+   if (age >= 21) {
+
+return false;
+
+} else if (age <=21) {
+
+return false;
+
 }
-console.log(isOldEnoughToDrinkAndDrive(22));
-console.log(isOldEnoughToDrinkAndDrive(21));
-console.log(isOldEnoughToDrinkAndDrive(16));
+}
+var output = isOldEnoughToDrinkAndDrive(22);
+console.log(output); // --> false
