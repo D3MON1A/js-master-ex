@@ -10,5 +10,5 @@ function isOddLength(word) {
       return false;
     }
 }
-var output = isOddLength('special');
+let output = isOddLength('special');
 console.log(output); // --> true

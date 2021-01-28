@@ -2,8 +2,8 @@ function getProperty(obj, key) {
   // your code here
   return obj[key];
 }
-  var car = {
+  let car = {
   model: 'Toyota'
 };
-var output = getProperty(car, 'model');
+let output = getProperty(car, 'model');
 console.log(output); // --> 'value

@@ -6,5 +6,5 @@ function isEvenAndGreaterThanTen(num) {
     return false;
 }
 }
-var output = isEvenAndGreaterThanTen(13);
+let output = isEvenAndGreaterThanTen(13);
 console.log(output); // --> false

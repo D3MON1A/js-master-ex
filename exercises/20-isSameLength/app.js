@@ -8,5 +8,5 @@ function isSameLength(word1, word2){
     }
 
 }
-var output = isSameLength('words', 'super');
+let output = isSameLength('words', 'super');
 console.log(output); // --> true

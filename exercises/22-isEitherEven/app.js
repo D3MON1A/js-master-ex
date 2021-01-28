@@ -10,5 +10,5 @@ function isEitherEven(num1, num2){
     }
 }
 
-var output = isEitherEven(1, 4);
+let output = isEitherEven(1, 4);
 console.log(output); // --> true

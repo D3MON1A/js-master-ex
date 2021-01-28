@@ -7,5 +7,5 @@ function isOdd(num) {
     return false;
   }
 }
-var output = isOdd(9);
+let output = isOdd(9);
 console.log(output); // --> true

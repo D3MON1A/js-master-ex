@@ -1,7 +1,7 @@
 // Write your function here
 function getNthElementOfProperty(obj, key, n) {
   
-   var objProperties = Object.keys(obj);
+   let objProperties = Object.keys(obj);
   console.log(obj);
   
   console.log(objProperties);

@@ -2,7 +2,7 @@ function removeProperty(obj, key) {
   // your code here
   delete obj[key]
 }
-var obj = {
+let obj = {
   name: 'Sam',
   age: 20
 }

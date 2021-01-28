@@ -2,10 +2,10 @@
 function countAllCharacters(str) {
   
 
-    var charcount = new Object();
+    let charcount = new Object();
 
   
-  var arr = str.split("");
+  let arr = str.split("");
   console.log(arr);
   
    if(str==="")//not null

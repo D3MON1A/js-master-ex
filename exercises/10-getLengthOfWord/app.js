@@ -2,5 +2,5 @@ function getLengthOfWord(word) {
   // your code here
   return word.length;
 }
-var output = getLengthOfWord('some');
+let output = getLengthOfWord('some');
 console.log(output); // --> 4

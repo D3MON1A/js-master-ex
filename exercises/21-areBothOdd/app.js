@@ -7,5 +7,5 @@ function areBothOdd(num1, num2){
         return false;
     }
 }
-var output = areBothOdd(1, 3);
+let output = areBothOdd(1, 3);
 console.log(output); // --> true

@@ -10,5 +10,5 @@ function areValidCredentials(name, password) {
       return false;
     }
 }
-var output = areValidCredentials('Ritu', 'mylongpassword')
+let output = areValidCredentials('Ritu', 'mylongpassword')
 console.log(output); // --> true

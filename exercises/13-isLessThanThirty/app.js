@@ -4,5 +4,5 @@ function isLessThan30(num) {
   else return false
 
 }
-var output = isLessThan30(9);
+let output = isLessThan30(9);
 console.log(output); // --> true

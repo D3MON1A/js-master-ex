@@ -10,5 +10,5 @@ function isEvenLength(word) {
       return false;
     }
 }
-var output = isEvenLength('wow');
+let output = isEvenLength('wow');
 console.log(output); // --> false
